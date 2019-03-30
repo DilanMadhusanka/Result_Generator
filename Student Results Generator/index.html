@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Average & Grade Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Css/main.css">
+	<script type="text/javascript" src="Js/myScript.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>Student Average Marks & Grades</header>
+
+		<div class="coloum">
+			<div class="left">
+				<h2>Assignment Marks <p style="font-size: 10px; margin-left: 5px;">(Full Assignment marks are given by 10)</p></h2> <!--<p style="font-size: 10px; margin-left: 5px;">(Full Assignment marks are given by 10)</p>-->
+				<div class="assign">
+					
+						<label>Assignment 1</label>
+						<input type="text" name="asi_1" class="asi" id="assi_1"> <br>
+						<label>Assignment 2</label>
+						<input type="text" name="asi_2" class="asi" id="assi_2"> <br>
+						<label>Assignment 3</label>
+						<input type="text" name="" class="asi" id="assi_3"> <br>
+						<label>Assignment 4</label>
+						<input type="text" name="" class="asi" id="assi_4"> <br>
+
+						
+					
+				</div> <!--assign-->
+			</div> <!--left-->
+		</div> <!--coloum-->
+
+
+		<div class="coloum">
+			<div class="full_mark">
+				<input type="text" name="" id="total_mark_assign_1" style="margin-bottom: 10px; width:50px;"> <br>
+				<input type="text" name="" id="total_mark_assign_2" style="margin-bottom: 10px; width:50px;"> <br>
+				<input type="text" name="" id="total_mark_assign_3" style="margin-bottom: 10px; width:50px;"> <br>
+				<input type="text" name="" id="total_mark_assign_4" style="margin-bottom: 10px; width:50px;"> <br>
+			</div> <!--full_mark-->
+		</div> <!--coloum-->
+
+		<div class="coloum">
+			<div class="right">
+				<div class="inclass">
+					<h2>Inclass Test <p style="font-size: 10px; margin-left: 5px;">(Full inclass test marks are given by 10)</p></h2>
+				
+						<label>Test 1</label>
+						<input type="text" name="te_1" id="test_1"> <br>
+						<label>Test 2</label>
+						<input type="text" name="te_2" id="test_2" > <br>
+						<label>Test 3</label>
+						<input type="text" name="te_3" id="test_3" > <br>
+						<label>Test 4</label>
+						<input type="text" name="te_4" id="test_4" > <br>
+				</div> <!--inclass-->
+			</div> <!--right-->
+		</div> <!--coloum-->
+
+		<div class="coloum">
+			<div class="full_mark">
+					<input type="text" name="" id="total_mark_inclass_1" style="width:50px;"> <br>
+					<input type="text" name="" id="total_mark_inclass_2" style="width:50px;"> <br>
+					<input type="text" name="" id="total_mark_inclass_3" style="width:50px;"> <br>
+					<input type="text" name="" id="total_mark_inclass_4" style="width:50px;"> <br>
+			</div> <!--full_mark-->
+		</div> <!--coloum-->
+
+		<div class="total_assignment">
+				<input type="textfield" name=""  id="tota" placeholder=" Total marks of assignment" readonly>
+				<button onclick="tot_1()">Total</button>
+			
+		</div> <!--total_assignment-->
+
+		<div class="total_inclass">
+				<input type="text" placeholder="Total marks of inclass test" id="total_inTest" readonly>
+				<button onclick="tot_2()">Total</button>
+		</div> <!--total_inclass-->
+
+		<div class="presentation">
+				<label>Presentation</label>
+				<input type="text" name="" placeholder=" Total marks are 10" id="present">
+		</div> <!--presentage-->
+
+		<div class="mid">
+				<label>Mid Terms</label>
+				<input type="text" name="" placeholder=" Total marks are 10" id="mid_term">
+		</div>
+
+		<div class="final">
+				<label>Final Terms</label>
+				<input type="text" name="" placeholder=" Total marks are 60" id="final_term">
+		</div> <!--final-->
+
+		<div class="total">
+				<label>Total</label> <br> 
+				<input type="text" name="" placeholder=" Total marks of subject" id="all_marks" readonly>
+				<button onclick="fullMarks(); giveGrade();">Result</button> <br>
+				<input type="text" name="" placeholder="Grade" id="grade" readonly>
+		</div>
+	</div> <!--wrapper-->
+</body>
+</html>

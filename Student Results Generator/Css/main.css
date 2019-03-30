@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+.wrapper {
+	margin: 60px auto;
+	width: 1000px;
+	height: 600px;
+	background-color: lightblue;
+	border-style: solid;
+}
+
+.wrapper header {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.coloum {
+	float: left;
+	margin-right: 50px;
+}
+
+.assign input {
+	margin-bottom: 10px;
+}
+
+.inclass {
+	margin-left: 140px;
+	margin-right: -7px;
+}
+
+.inclass input {
+	margin-bottom: 10px;
+}
+
+.inclass h2 {
+	margin-bottom: 30px;
+}
+
+.left {
+	margin-left: 100px;
+}
+
+.left h2 {
+	margin-bottom: 30px;
+}
+
+.full_mark {
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+
+.full_mark input {
+	margin-bottom: 10px;
+}
+
+.asi {
+	width: 50px;
+}
+
+#test_1 {
+	width: 50px;
+}
+
+#test_2 {
+	width: 50px;
+}
+
+#test_3 {
+	width: 50px;
+}
+
+#test_4 {
+	width: 50px;
+}
+
+label {
+	margin-right: 10px;
+}
+
+.total_assignment {
+	clear: both;
+	margin-top: 170px;
+	margin-left: 100px;
+}
+
+.total_assignment button {
+	margin-left: 62px;
+	border: none;
+	background-color: green;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-family: Times New Roman;
+}
+ .total_assignment input {
+ 	height: 25px;
+ 	border-radius: 2px;
+ 	padding: 0px 5px 0px 5px;
+ 	border-style: none;
+ 	width: 170px;
+ }
+
+ .total_inclass {
+ 	float: right;
+ 	margin-right: 140px;
+ 	margin-top: -30px;
+ }
+
+ .total_inclass input {
+ 	height: 25px;
+ 	border-radius: 2px;
+ 	border-style: none;
+ 	padding: 0px 5px 0px 5px;
+ }
+
+ .total_inclass button {
+ 	margin-left: 45px;
+	border: none;
+	background-color: green;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-family: Times New Roman;
+ }
+
+.presentation {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.presentation input {
+	height: 25px;
+ 	border-radius: 2px;
+ 	border-style: none;
+}
+
+ .mid {
+ 	float: left;
+ 	margin-left: 600px;
+ 	margin-top: -19px;
+ }
+
+ .mid input {
+ 	height: 25px;
+ 	border-radius: 2px;
+ 	border-style: none;
+ }
+
+ .final {
+ 	clear: both;
+ 	margin-left: 100px;
+ 	margin-top: 50px;
+ }
+
+ .final input {
+ 	height: 25px;
+ 	border-radius: 2px;
+ 	border-style: none;
+ }
+
+ .total{
+ 	margin-left: 600px;
+ 	margin-top: -20px;
+ }
+
+ .total label {
+ 	margin-left: 43px;
+ 	font-size: 20px;
+ 	font-family: Times New Roman;
+ 	font-weight: bold;
+ }
+
+ .total input {
+ 	height: 25px;
+ 	border-radius: 2px;
+ 	border-style: none;
+ 	margin-top: 20px;
+ }
+
+ .total button {
+ 	margin-left: 45px;
+	border: none;
+	background-color: green;
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-family: Times New Roman;
+ }
+
+ #grade {
+ 	width: 40px;
+ 	margin-top: 5px;
+ 	margin-left: 45px;
+ 	padding: 0px 5px 0px 5px;
+ }
